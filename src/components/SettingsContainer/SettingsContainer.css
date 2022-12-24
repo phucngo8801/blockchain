@@ -1,0 +1,237 @@
+.SettingsContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 48.78px;
+    align-items: center;
+}
+
+.Settings {
+    height: 100%;
+    width: 874px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Settings-header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 85px;
+    /* background-color: green; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Settings-header-left {
+    display: flex;
+    align-items: center;
+}
+
+.Settings-header-left_title h1 {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+}
+
+.Settings-header-left_title p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #77838F;
+}
+
+.Settings-header-right {
+    display: flex;
+    width: 198px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #1A1A1A;
+    border-radius: 12px;
+}
+
+.Settings-header-right:hover {
+    border: 2px solid #33ACE0;
+    cursor: pointer;
+}
+
+.Settings-header-right p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #77838F;
+}
+
+.Settings-account {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 874px;
+    height: 367px;
+    background: #0E0E0E;
+    border: 2px solid #1C1C1C;
+    border-radius: 24px;
+}
+
+.Settings-account-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 68px;
+}
+
+.Settings-account-list_left p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.Settings-account-list_right {
+    display: flex;
+}
+
+.Settings-account-list_right_text p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-right: 13px;
+    color: #FFFFFF;
+}
+
+.Settings-account-list_right_change button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+    height: 30px;
+    background: linear-gradient(180deg, #292A2D 0%, #1C1C1C 100%);
+    border-radius: 8px;
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Settings-account-list_right_change button:hover {
+    border: 2px solid #33ACE0;
+    cursor: pointer;
+}
+
+.Settings-prefer {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    width: 874px;
+    height: 296px;
+    background: #0E0E0E;
+    border: 2px solid #1C1C1C;
+    border-radius: 24px;
+}
+
+.Settings-prefer-list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 68px;
+    align-items: center;
+}
+
+.Settings-prefer-list_left p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.Settings-prefer-list_right {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.Settings-prefer-list_right_text p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+}
+.default_ethereum{
+    position: absolute;
+    right: 90px;
+}
+
+.Settings-prefer-list_right_text span {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #77838F;
+}
+.Connected_bank{
+    display: flex;
+}
+.Connected_bank_right{
+    margin: 0 17px;
+}
+.AVAXIcon{
+    position: absolute;
+    right: 30px;
+}
+.BNBIcon{
+    position: absolute;
+    right: 15px;
+}
+/* .MATICIcon{
+    position: absolute;
+} */
+.ETHIcon{
+    position: absolute;
+    right: 45px;
+}

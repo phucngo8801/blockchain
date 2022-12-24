@@ -1,0 +1,21 @@
+.home {
+    display: flex;
+}
+.vaults{
+    display: flex;
+}
+.pay{
+    display: flex;
+}
+.notifica{
+    display: flex;
+}
+.referrals{
+    display: flex;
+}
+.settings{
+    display: flex;
+}
+.swap{
+    display: flex;
+}

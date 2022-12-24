@@ -1,0 +1,72 @@
+.Stroll {
+    display: flex;
+    align-items: center;
+}
+
+.Stroll__index {
+    font-family: 'Brinnan';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.428571px;
+    color: #ffffff;
+}
+
+.Stroll img {
+    width: 30px;
+    height: 30px;
+    margin: 0 8px;
+}
+
+.Stroll__text {
+    font-family: 'Brinnan';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.428571px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1300px) {
+    .Stroll {
+        padding: 0rem 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .Stroll {
+        max-width: 327px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* background-color: #ffffff; */
+    }
+
+    .Stroll__index {
+        font-family: 'Brinnan';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.428571px;
+        color: #FFFFFF;
+    }
+
+    .Stroll img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .Stroll__text {
+        font-family: 'Brinnan';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.428571px;
+        color: #FFFFFF;
+    }
+}

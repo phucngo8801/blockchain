@@ -1,0 +1,149 @@
+.Funding-model{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(4, 4, 4, 0.5);
+    z-index: 9999;
+
+    /* Add animation */
+    animation: show__overlay 0.5s linear;
+}
+.Funding-Source {
+    z-index: 2;
+    position: absolute;
+    width: 487px;
+    height: 442px;
+    background: #0E0E0E;
+    border: 2px solid #1C1C1C;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Funding-Source-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 35px;
+}
+
+.Funding-Source-top h3 {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+}
+
+.Funding-Source-top_close {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #1A1A1A;
+    cursor: pointer;
+}
+
+.Funding-Source-top_close img {
+    padding: 5px;
+}
+.Funding-Source-top_close:hover{
+    border: 2px solid rgb(50, 171, 223);
+    cursor: pointer;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #1A1A1A;
+}
+
+.Funding-Source-bot {
+    display: flex;
+    flex-direction: column;
+    width: 418px;
+    /* align-items: flex-start; */
+    justify-content: space-evenly;
+    height: 312px;
+    background: #171717;
+    border: 1px solid #303030;
+    border-radius: 12px;
+    margin: 29px 34px;
+}
+
+.Funding-Source-bot_title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 25px 16px 25px;
+    width: 100%;
+}
+
+.Funding-Source-bot_title-title2 {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.Funding-Source-bot_title p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.Funding-Source-bot_title span {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #77838F;
+    margin-left: 7px;
+    margin-top: 5px;
+
+}
+
+.Funding-Source-bot_title-box {
+    background: #000000;
+    border-radius: 12px;
+    width: 99px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.Funding-Source-bot_title-box:hover {
+    border: 2px solid rgb(50, 171, 223);
+    cursor: pointer;
+}
+
+.Funding-Source-bot_title-copy {
+    /* background-color: gray; */
+    margin-top: 5px;
+    margin-left: 5px;
+}

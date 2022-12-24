@@ -1,0 +1,214 @@
+.ReferralsContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 48.78px;
+    align-items: center;
+}
+
+.Referrals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 592px;
+    height: 100%;
+    /* background-color: green; */
+    padding: 0 30px;
+}
+
+.Referrals-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 170px;
+}
+
+.Referrals-header-top h1 {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 102px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Referrals-header-bot {
+    display: flex;
+    flex-direction: column;
+}
+
+.Referrals-header-bot p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #77838F;
+}
+
+.Referrals-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 31px;
+}
+
+.Referrals-title-top p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.Referrals-title-bot {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Referrals-title-bot-search input {
+    background: #0E0E0E;
+    border-radius: 12px;
+    width: 359px;
+    height: 60px;
+}
+
+.Referrals-title-bot-search input[type="text"] {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    padding-left: 26px;
+    color: #77838F;
+}
+
+.Referrals-title-bot-copy button {
+    background: #000000;
+    border: 2px solid #33ACE0;
+    border-radius: 12px;
+    width: 158px;
+    height: 60px;
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+
+}
+
+.Referrals-title-bot-copy button:hover {
+    border: 2px solid rgb(15, 128, 211);
+    cursor: pointer;
+    color: #33ACE0;
+}
+
+.Referrals-or {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 34px;
+    align-items: center;
+}
+
+.Referrals-or-line {
+    width: 240px;
+    border: 1px solid #474747;
+    transform: rotate(0.49deg);
+    height: 1px;
+}
+
+.Referrals-or-title p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Referrals-social {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 51.93px;
+}
+
+.Referrals-footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 43px;
+}
+
+.Referrals-footer-header p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.Referrals-footer-box {
+    display: flex;
+    flex-direction: column;
+    width: 543px;
+    height: 364px;
+    background: #0E0E0E;
+    border-radius: 12px;
+    justify-content: space-evenly;
+    padding: 0 23px;
+    margin-top: 6px;
+}
+
+.Referrals-footer-box-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Referrals-footer-box-item_title p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #77838F;
+}
+
+.Referrals-footer-box-item_DYNA span {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #169B00;
+
+}

@@ -1,0 +1,371 @@
+.PayContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 48.78px;
+}
+
+.Pay {
+    display: flex;
+    flex-direction: row;
+    /* background-color: green; */
+    margin: 79px auto;
+    width: 100%;
+    padding: 0 40px;
+}
+
+.Pay-box_left {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 706px;
+    height: 851px;
+    background: #0E0E0E;
+    border: 2px solid #1C1C1C;
+    border-radius: 24px;
+}
+
+.Pay-box_left-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-header {
+    display: flex;
+    width: 353px;
+    height: 65px;
+    justify-content: center;
+}
+
+.left-header h2 {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.send:hover {
+    background: #1E1E1E;
+    border-radius: 24px 0px 0px 0px;
+}
+
+.receive:hover {
+    background: #1E1E1E;
+    border-radius: 0px 24px 0px 0px;
+}
+
+.Pay-box_left-title {
+    display: flex;
+    flex-direction: column;
+    padding: 0 55px;
+    position: relative;
+}
+
+.Pay-box_left-title_top {
+    display: flex;
+    flex-direction: row;
+    height: 327px;
+    width: 100%;
+    /* background-color: green; */
+}
+
+.Pay-box_left-title_top-dollar {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 314px;
+    top: 112px;
+}
+
+.Pay-box_left-title_top-dollar p {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Pay-box_left-title_top-dollar h1 {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 97px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Pay-box_left-title_top-convert {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: center;
+}
+
+.Pay-box_left-title_top-convert .convert {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #363636;
+    border-radius: 50%;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.Pay-box_left-title_top-convert .convert img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.Pay-box_left-title_top-convert p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 4px;
+    color: #FFFFFF;
+}
+
+.Pay-box_left-title_bot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 263px;
+    margin-top: 28px;
+    background: #171717;
+    border-radius: 12px;
+}
+
+.Pay-box_left-title_bot-list {
+    display: flex;
+    flex-direction: row;
+    padding: 0 30px;
+}
+
+.Pay-box_left-title_bot .first {
+    justify-content: space-between;
+}
+
+.bot-list-left p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.bot-pay-right {
+    /* margin-top: -10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 44px;
+    background: linear-gradient(180deg, #070707 0%, #020202 100%);
+    border-radius: 12.5px;
+}
+.bot-pay-right:hover{
+    cursor: pointer;
+    border: 2px solid rgb(15, 128, 211);
+}
+
+.bot-list-right_imgl img {
+    width: 30px;
+    height: 30px;
+}
+
+.bot-pay-right_USDC p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    margin: 0 4px;
+    color: #FFFFFF;
+}
+
+.bot-list-right_imgr img {
+    margin-top: 8px;
+    width: 18px;
+    height: 18px;
+}
+
+.bot-list-span span {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 19px;
+    color: #77838F;
+}
+
+.Pay-box_left-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 55px;
+}
+
+.continue button {
+    width: 597px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    margin-top: 28px;
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(119, 58, 199);
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.continue button:hover {
+    border: 2px solid rgb(15, 128, 211);
+    cursor: pointer;
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 27px;
+}
+
+.footer-title p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.Pay-box_right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 541px;
+    height: 610px;
+    background: #0E0E0E;
+    border: 2px solid #1C1C1C;
+    border-radius: 24px;
+    padding-left: 39px;
+}
+
+.Pay-box-right-header {
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+
+.Pay-box-right-header p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.Pay-box-right-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.list-item h3 {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #77838F;
+}
+
+.list-item p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.list-item span {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #77838F;
+}
+
+/* Receive */
+.Pay-box_left-title-qr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.Pay-box_left-title-qr .scan p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #77838F;
+}
+
+.Pay-box_left-title-assets {
+    display: flex;
+    width: 597px;
+    height: 70px;
+    background: #171717;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin-top: 100px;
+}
+
+.assets__left p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}

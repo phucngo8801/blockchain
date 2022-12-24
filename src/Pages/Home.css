@@ -1,0 +1,6 @@
+.home {
+    position: relative;
+    /* width: 1728px; */
+    width: 100%;
+    display: flex;
+}

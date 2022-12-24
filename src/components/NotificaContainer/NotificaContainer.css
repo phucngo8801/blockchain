@@ -1,0 +1,96 @@
+.NotificaContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 48.78px;
+}
+
+.Notifica {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.Notifica-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 670px;
+    height: 967px;
+    background: #0E0E0E;
+    border: 2px solid #1C1C1C;
+    border-radius: 24px;
+    padding: 0 41px;
+    margin-left: 400px;
+    margin-top: 162px;
+}
+
+.Notifica-box-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Notifica-box-item-left h3 {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    color: #77838F;
+}
+
+.Notifica-box-item-left p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+    color: #FFFFFF;
+
+}
+
+.Notifica-box-item-left span {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #77838F;
+}
+
+.Notifica-box-item-right p {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.Notifica-box-item-right span {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-top: 6px;
+    color: #009E23;
+}
